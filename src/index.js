@@ -3,11 +3,18 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import BottomSheet from './Components/BottomSheet.js';
+import Hero from './Components/Hero.js';
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <BottomSheet/>
     <App />
+    <Hero/>
   </React.StrictMode>
 );
 
